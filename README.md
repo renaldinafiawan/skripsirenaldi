@@ -30,7 +30,7 @@ python.exe -m pip install --upgrade pip
 
 #install dulu librarynya pake
 
-pip install numpy padas tensorflow seaborn
+pip install numpy pandas tensorflow seaborn
 
 python -m pip install --upgrade pip
 
