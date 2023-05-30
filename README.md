@@ -8,6 +8,7 @@
 6. Buka VSCODE anda, pada terminal ketikkan  ' cd /d/Alan ' ( direktori anda membuat folder nomor 1 )
 7. Buat Virtual Environtment dengan menggunakan 
 #( virtual_env itu nama virtual environment anda, bisa di ganti )
+
 python -m venv virtual_env
 
 Disini anda dapat mengganti kernel anda menjadi virtual_env
