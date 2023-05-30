@@ -32,6 +32,7 @@ python.exe -m pip install --upgrade pip
 
 pip install numpy padas tensorflow seaborn
 
+python -m pip install --upgrade pip
 
 Setelah semuanya telah dilakukan, buka file SKRIPSISOURCECODE4prasempro
 ( PASTIKAN FOLDER VIRTUAL ENVIRONTMENT SEFOLDER DENGAN DATASET5 )
