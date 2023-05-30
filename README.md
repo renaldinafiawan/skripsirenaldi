@@ -1,23 +1,36 @@
 # skripsirenaldi
-Download Datasetnya terlebih dahulu : 
 
-https://drive.google.com/drive/folders/17Y5VwTAZPMrqvB--oVfzKgSzRu65zasn?usp=sharing
+1. Buat Folder pada laptop anda.  Misal di local disk D, Alan
+2. Buka VSCODE lalu install ekstensi Jupiter ( https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter )
+3. Setelah itu, download Datasetnya terlebih dahulu : ( Karena besar dan banyak saya letakkan di gdrive )
+4. Link : https://drive.google.com/drive/folders/17Y5VwTAZPMrqvB--oVfzKgSzRu65zasn?usp=sharing
+5. Extract semua file tersebut kedalam folder yang sama dengan nomor 1.
+6. Buka VSCODE anda, pada terminal ketikkan  ' cd /d/Alan ' ( direktori anda membuat folder nomor 1 )
+7. Buat Virtual Environtment dengan menggunakan 
+#( virtual_env itu nama virtual environment anda, bisa di ganti )
+python -m venv virtual_env
 
-Lalu buka Terminal pada vscode anda lalu membuat virtual environtment dan menginstall beberapa library ini :
-( Dipastikan mengintall jupiternotebook di vscode ) 
+Disini anda dapat mengganti kernel anda menjadi virtual_env
+Lalu, sesuai dengan direktori tadi, ketikkan pada terminal 
 
-cd d/Alan ( PASTIKAN MENGUBAH DIREKTORI INI MAU DI INSTALL DIMANA VIRTUAL ENVIRONTMENT NYA )
-python3 -m pip install --user --upgrade pip
+cd virtual_env
+cd Scripts
+activate
 
-python3 -m pip --version
 
-python3 -m pip install --user virtualenv
+8. Lalu Install terlebih dahulu pip dengan
+
+pip install -r /d/Alan/req.txt  ( lokasi anda meletakkan folder nomer 1)
+
+lalu upgrade pip dengan
+
+python.exe -m pip install --upgrade pip
+
 
 #install dulu librarynya pake
-source env/bin/activate
-python3 -m venv test
 
- pip install -r path/to/requiremens.txt
+pip install numpy padas tensorflow seaborn
+
 
 Setelah semuanya telah dilakukan, buka file SKRIPSISOURCECODE4prasempro
 ( PASTIKAN FOLDER VIRTUAL ENVIRONTMENT SEFOLDER DENGAN DATASET5 )
