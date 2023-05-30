@@ -36,7 +36,4 @@ python -m pip install --upgrade pip
 
 Setelah semuanya telah dilakukan, buka file SKRIPSISOURCECODE4prasempro
 ( PASTIKAN FOLDER VIRTUAL ENVIRONTMENT SEFOLDER DENGAN DATASET5 )
-
-# butuh instal jupiternotebook di vscode
-# Perlu mengganti beberapa baris code terkait tempat menyimpan dataset dan test
-# 
+Lalu run sc diatas untuk mendapatkan accuracy
