@@ -35,5 +35,4 @@ pip install numpy pandas tensorflow seaborn
 python -m pip install --upgrade pip
 
 Setelah semuanya telah dilakukan, buka file SKRIPSISOURCECODE4prasempro
-( PASTIKAN FOLDER VIRTUAL ENVIRONTMENT SEFOLDER DENGAN DATASET5 )
 Lalu run sc diatas untuk mendapatkan accuracy
